@@ -4,6 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "GenRebalancer | DAO Treasury Guardian",
   description: "AI-powered DAO treasury risk management on GenLayer",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
