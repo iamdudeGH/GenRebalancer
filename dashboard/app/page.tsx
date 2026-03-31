@@ -377,7 +377,7 @@ export default function DashboardPage() {
     <div className="shell">
       <header className="header">
         <div className="header-left">
-          <div className="logo-icon">🛡</div>
+          <div className="logo-icon"><img src="/logo.png" alt="GenRebalancer Logo" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit" }} /></div>
           <div>
             <div className="header-title">GenRebalancer</div>
             <div className="header-subtitle">DAO Treasury Guardian · Bradbury Testnet</div>
